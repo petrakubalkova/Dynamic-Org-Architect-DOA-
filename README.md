@@ -1,14 +1,14 @@
-## Dynamic Org Architect
+## 🏛️ Dynamic Org Architect
 
 Dynamic Org Architect je nástroj pro **analýzu vytížení manažerů (Span of Control)** a **vizualizaci komplexních organizačních struktur**. Umožňuje rychle odhalit přetížené, podvyužité i „multicompany“ manažery (řídící více firem/entit) a prezentovat výsledky jak staticky (PNG), tak interaktivně (HTML).
 
-### Hlavní přínosy
+### 🚀 Hlavní přínosy
 
 - **Analýza Span of Control (SPOC)**: počítá, kolik přímých podřízených (zejména specialistů/pracovníků) má každý manažer (profese 1–3).
 - **Detekce Multicompany manažerů**: identifikuje manažery, kteří vedou týmy složené z více společností, a zvýrazní je ve vizualizaci.
 - **Čitelné vizualizace**: generuje přehledné organizační schéma ve formátu PNG i interaktivní síť v HTML pro hlubší analýzu vztahů.
 
-### Klíčové vlastnosti
+### ✨ Klíčové vlastnosti
 
 - **Detekce „Multicompany“ manažerů**:  
   Manažeři, jejichž přímí podřízení pocházejí z více různých společností, jsou označeni příznakem *Multicompany*, mají zvýrazněný rámeček a v tooltipu i seznam spravovaných společností.
@@ -30,7 +30,7 @@ Dynamic Org Architect je nástroj pro **analýzu vytížení manažerů (Span of
 ### 🌐 [KLIKNĚTE ZDE PRO ŽIVÉ DEMO (v novém okně)](https://petrakubalkova.github.io/DOA-Dynamic-Org-Architect/interaktivni_schema.html)
 *(Pro otevření v nové kartě můžete použít Ctrl + klik)*
 
-### Požadované knihovny a instalace
+### ⚙️ Požadované knihovny a instalace
 
 Projekt je postaven na Pythonu 3 a využívá následující balíčky:
 
@@ -45,7 +45,7 @@ Instalaci doporučených balíčků můžete provést například takto:
 pip install pandas matplotlib pyvis openpyxl
 ```
 
-### Struktura projektu (hlavní skript)
+### 📊 Struktura projektu (hlavní skript)
 
 Hlavní logika je v souboru `analyza_spoc.py` a typický průběh běhu vypadá takto:
 
@@ -89,7 +89,7 @@ Pokud chcete pracovat s vlastními reálnými daty, připravte soubor `Org_struk
 
 Skript se snaží být robustní vůči drobným rozdílům v názvech sloupců (přemapování podle pořadí a názvů).
 
-### Jak skript spustit
+### ▶️ Jak skript spustit
 
 1. Ujistěte se, že máte nainstalované požadované knihovny (viz sekce Instalace).  
 2. Umístěte `analyza_spoc.py` a případný `Org_struktura_vypis.xlsx` do stejné složky.  
@@ -110,7 +110,7 @@ python analyza_spoc.py
    - `Organizacni_Schema.png` – statické organizační schéma.  
    - `interaktivni_schema.html` – interaktivní síťové schéma (otevřete v prohlížeči).
 
-### Interpretace výsledků
+### 💡 Interpretace výsledků
 
 - **Tabulka SPOC (konzole)** – přehled manažerů s jejich SPOC, Multicompany příznakem a počtem firem.  
 - **PNG schéma** – reprezentuje manažerskou hierarchii v podobě stromu, vhodné k tištěné prezentaci a rychlému přehledu.
