@@ -96,7 +96,7 @@ Skript se snaží být robustní vůči drobným rozdílům v názvech sloupců 
 3. V příkazové řádce (PowerShell, CMD, Terminal) přejděte do adresáře projektu:
 
 ```bash
-cd "cesta/k/vasi/slozce/Dynamic-Org-Architect"
+cd "cesta/k/vasi/slozce/DOA-Dynamic-Org-Architect"
 ```
 (zde si doplňte vlastní cestu na úložiště)
 
